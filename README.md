@@ -1,8 +1,117 @@
-# Text-Summarisation
-Text summarization is a Natural Language Processing (NLP) technique used to condense large volumes of text into shorter, coherent versions while preserving key information and overall meaning. There are two main types of text summarization:
+# Text Summarization Web Application
 
-Extractive Summarization: This method involves selecting and concatenating important sentences or phrases directly from the original text without altering them. The focus is on identifying the most relevant information to form a summary.
+## Overview
 
-Abstractive Summarization: Unlike extractive summarization, this approach generates new sentences that capture the core ideas of the original text. It often involves advanced techniques such as deep learning and language modeling to produce more human-like summaries.
+This project is a Text Summarization Web Application built using Python and Flask. It generates concise summaries from long text documents, helping users quickly understand key information without reading the entire content.
 
-Text summarization is widely used in various applications, including news aggregation, document management, and content recommendation systems. By automating the summarization process, it helps users quickly grasp the essential points from extensive textual data.
+The application supports text input through a web interface and provides summarized output using Natural Language Processing (NLP) techniques.
+
+---
+
+## Features
+
+* Extractive Text Summarization
+* Abstractive Text Summarization
+* Simple and User-Friendly Interface
+* Fast Summary Generation
+* Flask-based Web Application
+* NLP-Powered Processing
+
+---
+
+## Tech Stack
+
+### Backend
+
+* Python
+* Flask
+
+### NLP
+
+* NLTK
+* Text Processing Techniques
+
+### Frontend
+
+* HTML
+* CSS
+
+---
+
+## Project Structure
+
+Text-Summarisation/
+
+├── app.py
+
+├── textsummary.py
+
+├── abssummary.py
+
+├── requirements.txt
+
+├── README.md
+
+│
+
+├── templates/
+
+│ ├── index.html
+
+│ ├── summary.html
+
+│ └── summary2.html
+
+│
+
+└── static/
+
+└── styles.css
+
+---
+
+## How It Works
+
+1. User enters a paragraph or article.
+2. The system processes the text.
+3. NLP algorithms identify important information.
+4. A concise summary is generated.
+5. The summarized output is displayed to the user.
+
+---
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/Shivam01062002/Text-Summarisation.git
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the application:
+
+python app.py
+
+Open in browser:
+
+http://127.0.0.1:5000
+
+---
+
+## Future Improvements
+
+* Transformer-based summarization (BART/T5)
+* Multi-document summarization
+* PDF summarization support
+* URL-based article summarization
+* Deployment on cloud platforms
+
+---
+
+## Author
+
+Shivam Asthana
+
+GitHub: https://github.com/Shivam01062002
